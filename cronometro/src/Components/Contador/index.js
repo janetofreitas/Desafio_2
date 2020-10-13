@@ -100,7 +100,7 @@ class Contador extends React.Component{
         })
         if (this.state.stop)
                 {this.setState({
-                    nameStop: "Stop"         
+                    nameStop: "Pause"         
                 })}
             else
                 {this.setState({
@@ -122,7 +122,7 @@ class Contador extends React.Component{
         return(
             <div>
                     <h1>{this.state.horas}:{this.state.minutos}:{this.state.segundos}.{this.state.centesimos}</h1>
-                    <Botao onClick={() => { this.zerarCronometro()}} label="Zerar" />
+                    <Botao onClick={() => { this.zerarCronometro()}} label="Stop" />
                     <Botao onClick={() => { this.pararTempo()}} label={this.state.nameStop} />
                     <Botao onClick={() => this.parcial()} label={"Parcial"} />
                     <LabelCronometro name={this.state.parcial} />
