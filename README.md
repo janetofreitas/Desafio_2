@@ -4,4 +4,5 @@ Equipe:
 <br>
 José de assis freitas neto - 029142013
 <br>
-{Edite aqui lucas}
+Lucas de Oliveira Mendes Felix - 029180013
+
