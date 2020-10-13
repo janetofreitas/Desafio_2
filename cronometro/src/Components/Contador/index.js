@@ -14,7 +14,7 @@ class Contador extends React.Component{
             minutos: 0,
             horas: 0,
             stop: false,
-            nameStop: "Stop",
+            nameStop: "Pause",
             parcial: "",
             mudarPag: false
         }
